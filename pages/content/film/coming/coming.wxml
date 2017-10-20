@@ -1,0 +1,9 @@
+<block wx:if="{{true}}">
+  <view>
+    <text class=''/><text class="">loading...</text>
+  </view>
+</block>
+<block wx:else>
+  <scroll-view style='heigh: 100%' scroll-y="true" bindscroll="scroll">
+  </scroll-view>
+</block>

@@ -1,0 +1,26 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/content/content"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "good start",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#4DBBFF",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "vr列表"
+    }, {
+      "pagePath": "pages/logs/logs",
+      "text": "hr list"
+    }]
+  }
+}
